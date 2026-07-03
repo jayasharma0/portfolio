@@ -27,6 +27,22 @@ body{
     position: sticky;
     top: 40px;
 }
+.resume-btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:10px 25px;
+    background:#FFBF00;
+    color:#1e1e1e;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.resume-btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 0 15px rgba(255,191,0,.4);
+}
 .sidebar{
      background-color:#2a2a2a;
     border: 1px solid #3a3a3a;
